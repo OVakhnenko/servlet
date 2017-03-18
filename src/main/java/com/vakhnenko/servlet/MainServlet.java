@@ -18,11 +18,4 @@ public class MainServlet extends HttpServlet {
         req.setAttribute("name", "vakhnenko");
         req.getRequestDispatcher("mypage.jsp").forward(req, resp);
     }
-
-    @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp)
-            throws ServletException, IOException {
-
-        super.doPost(req, resp);
-    }
 }
